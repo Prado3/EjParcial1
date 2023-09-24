@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1695167001 source:c:\users\usuario\documents\plantillas personalizadas de office\lucas\ejparcial\alumno.c
+	<stdio.h>
+	<stdlib.h>
+	"alumno.h"
+
+1695162604 c:\users\usuario\documents\plantillas personalizadas de office\lucas\ejparcial\alumno.h
+
+1695514323 source:c:\users\usuario\documents\plantillas personalizadas de office\lucas\ejparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"alumno.h"
+	"lista.h"
+	<string.h>
+
+1695515604 c:\users\usuario\documents\plantillas personalizadas de office\lucas\ejparcial\lista.h
+	"alumno.h"
+
+1695515604 source:c:\users\usuario\documents\plantillas personalizadas de office\lucas\ejparcial\lista.c
+	<stdio.h>
+	<stdlib.h>
+	"alumno.h"
+	"lista.h"
+	<string.h>
+
