@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1695743602 source:c:\users\usuario\documents\plantillas personalizadas de office\lucas\practicafiladoble\alumno.c
+	"alumno.h"
+
+1695743602 c:\users\usuario\documents\plantillas personalizadas de office\lucas\practicafiladoble\alumno.h
+
+1695747287 source:c:\users\usuario\documents\plantillas personalizadas de office\lucas\practicafiladoble\main.c
+	<stdio.h>
+	<stdlib.h>
+	"alumno.h"
+	"lista.h"
+
+1695747735 source:c:\users\usuario\documents\plantillas personalizadas de office\lucas\practicafiladoble\lista.c
+	"lista.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1695747735 c:\users\usuario\documents\plantillas personalizadas de office\lucas\practicafiladoble\lista.h
+	"alumno.h"
+
