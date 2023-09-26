@@ -18,5 +18,7 @@ nodo* buscaMenorRecursivo(nodo* lista);
 void copiarPersonasAOtraLista(char nombreArchivo[],nodo* lista, char l[]);
 int contarMayorAUnaEdadLista(nodo* lista, int edadR);
 int contarTotalLista(nodo* lista);
+stCliente verPrimeroLista(nodo* lista);
+nodo* borrarPrimerNodo(nodo* lista);
 
 #endif // LISTA_H_INCLUDED

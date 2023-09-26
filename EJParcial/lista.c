@@ -118,3 +118,57 @@ int contarTotalLista(nodo* lista){
     }
     return total;
 }
+
+nodo* borrarLista(nodo* lista){
+    nodo* aux =lista;
+    nodo* proximo = NULL;
+    while(aux){
+        proximo = aux->sig;
+        free(aux);
+        aux = proximo;
+    }
+    return aux;
+}
+
+nodo* borrarNodoPorDni(nodo* lista, char dni[]){
+    nodo* aux = NULL;
+    if(lista && strcmp(lista->dato.dni,dni)==0){
+        aux = listal;
+        lista = lista->sig;
+        free(aux);
+    }else{
+        nodo* ante = lista;
+        aux = lista->sig;
+        while(aux && strcmp(aux->dato.dni,dni)==0){
+            ante = aux;
+            aux = aux->sig;
+        }
+        if(aux){{
+            ante->sig=aux->sig;
+            free(aux);
+        }
+    }
+    return lista;
+}
+
+nodo* buscarNodoPorDni(nodo* lista, char dni[]){
+    nodo* aux = lista;
+    while(aux && strcmp(aux->dato.dni,dni)!=0){
+        aux = aux->sig;
+    }
+    return aux;
+}
+
+stCliente verPrimeroLista(nodo* lista){
+    return lista->dato;
+}
+
+nodo* borrarPrimerNodo(nodo* lista){
+    nodo* aux = lista;
+    lista = lista->sig;
+    free(aux);
+    return lista;
+}
+
+
+
